@@ -1,0 +1,66 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/class-block/style.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+@charset "UTF-8";
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-ae-class-block {
+  max-width: 1200px !important;
+  margin: 0 auto;
+  background-color: darkolivegreen;
+}
+
+.class-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three columns by default */
+  gap: 2rem;
+  padding: 2rem;
+  justify-items: center;
+}
+
+.class-card {
+  width: 100%; /* Occupy full width of grid cell */
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.class-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.class-card-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-color: #f0f0f0;
+}
+
+.class-card-info {
+  padding: 1rem;
+  background-color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+@media (max-width: 900px) {
+  .class-list {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for screens ≤ 900px */
+  }
+}
+@media (max-width: 600px) {
+  .class-list {
+    grid-template-columns: 1fr; /* One column for screens ≤ 600px */
+  }
+}
+
+/*# sourceMappingURL=style-index.css.map*/

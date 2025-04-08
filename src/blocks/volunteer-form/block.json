@@ -1,0 +1,19 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "ae/volunteer-form",
+	"version": "0.1.0",
+	"title": "Volunteer Form",
+	"category": "design",
+	"icon": "smiley",
+	"description": "submit application for volunteering here",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"textdomain": "volunteer-form",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"viewScript": "file:./view.js"
+}

@@ -1,0 +1,48 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-ae-adoption-block {
+}
+.dog-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	gap: 2rem;
+	padding: 2rem;
+	justify-items: center;
+}
+
+.dog-card {
+	width: 100%;
+	max-width: 280px;
+	border-radius: 16px;
+	overflow: hidden;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	background: #fff;
+	transition: transform 0.2s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+}
+
+.dog-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.dog-card-img {
+	height: 200px;
+	background-size: cover;
+	background-position: center;
+	background-color: #f0f0f0;
+}
+
+.dog-card-info {
+	padding: 1rem;
+	background-color: #fefefe;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
