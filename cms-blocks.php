@@ -30,6 +30,7 @@ function ae_event_block_init() {
 	register_block_type( __DIR__ . '/build/blocks/adoption-block' );
 	register_block_type( __DIR__ . '/build/blocks/class-block' );
 	register_block_type( __DIR__ . '/build/blocks/volunteer-form' );
+	register_block_type( __DIR__ . '/build/blocks/featured-pup-block' );
 
 	// Add API client for event block
 	wp_enqueue_script( 'wp-api' );
